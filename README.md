@@ -1,13 +1,15 @@
-# 💤 LazyVim
+# 💤 QingVim config from LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+根据[LazyVim](https://github.com/LazyVim/LazyVim)配置，并作个人定制
 
-plus:
+## Use plugins:
 
 - [markdown](https://github.com/MeanderingProgrammer/render-markdown.nvim)
 - [lang.go](https://github.com/ray-x/go.nvim)
 
 ## Inspiration
 
+- [LazyVim](https://github.com/LazyVim/LazyVim)
 - [Allaman/nvim](https://github.com/Allaman/nvim)
+- [nshen/InsisVim](https://github.com/nshen/InsisVim)
+- [xiantang/nvim-conf](https://github.com/xiantang/nvim-conf)
