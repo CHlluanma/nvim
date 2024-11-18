@@ -1,0 +1,39 @@
+-- return {
+--     "nvim-tree/nvim-tree.lua",
+--     version = "*",
+--     lazy = false,
+--     dependencies = {"nvim-tree/nvim-web-devicons"},
+--     keys = {
+--         {"<leader>ft", "<cmd>NvimTreeToggle<cr>", desc = "NeoTree"}
+--     },
+--     opts = {
+--         -- git 状态图标
+--         git = {
+--             enable = false,
+--             ignore = true,
+--         },
+--         view = {
+--             -- 宽度
+--             width = 50,
+--             -- 也可以 'right'
+--             side = 'left',
+--             -- 隐藏根目录
+--     --        hide_root_folder = false,
+--             -- 自定义列表中快捷键
+--             -- mappings = {
+--             --     custom_only = false,
+--             --     list = list_keys,
+--             -- },
+--             -- 不显示行数
+--             number = false,
+--             relativenumber = false,
+--             -- 显示图标
+--             signcolumn = 'yes',
+--         },
+--     },
+--     config = function(_, opts)
+--         vim.g.load_netrw = 1
+--         vim.g.loaded_netrwPlugin = 1
+--         require("nvim-tree").setup(opts)
+--     end
+-- }
